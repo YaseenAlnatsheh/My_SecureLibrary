@@ -1,0 +1,13 @@
+/* public/assets/css/style.css */
+body { font-family: Arial, sans-serif; background:white; margin:0; padding:0; }
+.container { max-width: 450px; margin: 60px auto; background:white; padding: 22px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+h1 { margin: 0 0 16px; font-size: 22px; }
+label { display:block; margin: 12px 0 6px; font-size: 14px; }
+input { width: 100%; padding: 10px; border: 1px solid white; border-radius: 8px; font-size: 14px; }
+button { width: 100%; margin-top: 16px; padding: 10px; border: none; border-radius: 8px; background: blue; color: white; font-size: 15px; cursor: pointer; }
+button:hover { filter: brightness(0.95); }
+.alert { background: white; color:red; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #ffd1d1; }
+.success { background: white; color:green; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #c6f5cc; }
+.muted { margin-top: 12px; font-size: 13px; color:gray; }
+a { color:blue; text-decoration:none; }
+a:hover { text-decoration: underline; }
